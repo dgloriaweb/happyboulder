@@ -2,6 +2,7 @@
     {
         "nodes": [
             {
+                "location": "Wall A",
                 "nickname": "Route 1",
                 "levelAtSetup": 1,
                 "color": "mint",
@@ -11,9 +12,11 @@
                     "intensity": 5,
                     "risk": 3,
                     "complexity": 7
-                }
+                },
+                "class": "background-color: mint;"
             },
             {
+                "location": "Wall B",
                 "nickname": "Route 2",
                 "levelAtSetup": 4,
                 "color": "light green",
@@ -23,9 +26,11 @@
                     "intensity": 2,
                     "risk": 1,
                     "complexity": 3
-                }
+                },
+                "class": "background-color: lightgreen;"
             },
             {
+                "location": "Wall C",
                 "nickname": "Route 3",
                 "levelAtSetup": 5,
                 "color": "dark red",
@@ -35,9 +40,11 @@
                     "intensity": 3,
                     "risk": 8,
                     "complexity": 5
-                }
+                },
+                "class": "background-color: darkred; "
             },
             {
+                "location": "Wall B",
                 "nickname": "Route 4",
                 "levelAtSetup": 9,
                 "color": "black",
@@ -47,9 +54,11 @@
                     "intensity": 9,
                     "risk": 7,
                     "complexity": 7
-                }
+                },
+                "class": "background-color: black;"
             },
             {
+                "location": "Wall A",
                 "nickname": "Route 5",
                 "levelAtSetup": 2,
                 "color": "gray",
@@ -59,7 +68,8 @@
                     "intensity": 1,
                     "risk": 1,
                     "complexity": 1
-                }
+                },
+                "class": "background-color: gray;"
             }
         ]
     }

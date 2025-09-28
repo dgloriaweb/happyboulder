@@ -14,8 +14,12 @@ class BoulderRouteController extends Controller
 
     public function listRoutes()
     {
-        $jsonPath = app_path('Data/firstqr.json');
+        $jsonPath = app_path('../resources/json/data.json');
         $data = json_decode(\Illuminate\Support\Facades\File::get($jsonPath), true);
+        // sort data by wallIndex
+        usort($data[0]['nodes'], function ($a, $b) {
+            return $a['wallIndex'] <=> $b['wallIndex'];
+        });
         return view('qr_gen', ['nodes' => $data[0]['nodes'] ?? []]);
     }
 

@@ -11,7 +11,7 @@ just hoping it won't conflict my current windows xampp settings.
 Dani Krossing video 
 https://www.youtube.com/watch?v=7hf4EDU9S6g
 
-### Startup:
+### Startup
 windows search ubuntu -  start
 docker start
 in ubuntu cmd line cd into the project, code . or just start from vscode
@@ -21,3 +21,10 @@ cd LaravelProjects/happyboulder
 
 files are to be found:
 \\wsl.localhost\Ubuntu\home\dgloria\LaravelProjects\happyboulder
+
+### run
+http://localhost:8081/
+
+## Flow
+Can't use qr code because of security issues
+Let's name walls with number and add color name eg 2lime

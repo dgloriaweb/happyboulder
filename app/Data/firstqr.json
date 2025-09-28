@@ -1,0 +1,66 @@
+[
+    {
+        "nodes": [
+            {
+                "nickname": "Route 1",
+                "levelAtSetup": 1,
+                "color": "mint",
+                "suggestedLevel": 2,
+                "wallIndex": 4,
+                "rating": {
+                    "intensity": 5,
+                    "risk": 3,
+                    "complexity": 7
+                }
+            },
+            {
+                "nickname": "Route 2",
+                "levelAtSetup": 4,
+                "color": "light green",
+                "suggestedLevel": 3,
+                "wallIndex": 2,
+                "rating": {
+                    "intensity": 2,
+                    "risk": 1,
+                    "complexity": 3
+                }
+            },
+            {
+                "nickname": "Route 3",
+                "levelAtSetup": 5,
+                "color": "dark red",
+                "suggestedLevel": 5,
+                "wallIndex": 1,
+                "rating": {
+                    "intensity": 3,
+                    "risk": 8,
+                    "complexity": 5
+                }
+            },
+            {
+                "nickname": "Route 4",
+                "levelAtSetup": 9,
+                "color": "black",
+                "suggestedLevel": 8,
+                "wallIndex": 5,
+                "rating": {
+                    "intensity": 9,
+                    "risk": 7,
+                    "complexity": 7
+                }
+            },
+            {
+                "nickname": "Route 5",
+                "levelAtSetup": 2,
+                "color": "gray",
+                "suggestedLevel": 1,
+                "wallIndex": 1,
+                "rating": {
+                    "intensity": 1,
+                    "risk": 1,
+                    "complexity": 1
+                }
+            }
+        ]
+    }
+]
